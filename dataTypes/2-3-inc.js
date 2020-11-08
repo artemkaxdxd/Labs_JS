@@ -1,19 +1,20 @@
 'use strict';
 
-const obj = {
-    a: 5,
-    b: a + 1,
+const a = 5;
+
+function inc1(a) {
+    return 1 + a;
 }
 
-function inc(obj2) {
+function inc2(obj2) {
     return obj2 + 6;
 }
 
-const obj2 = {
+const obj = {
     n: 5,
     m: 10,
 }
 
-console.log({ obj });
-console.dir({'Increment(obj.n) ':  inc(obj2.n)}); 
-console.dir({'Increment(obj.m) ':  inc(obj2.m)}); 
+console.log( inc1(5) );
+console.dir({'Increment(obj.n) ':  inc2(obj.n)}); 
+console.dir({'Increment(obj.m) ':  inc2(obj.m)}); 
