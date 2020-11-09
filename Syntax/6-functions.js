@@ -11,5 +11,4 @@ function calculate() {
     return array;
 }
 
-
 console.log(calculate());
