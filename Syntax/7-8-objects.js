@@ -18,3 +18,12 @@ function fn() {
 }
 
 console.log( fn() );
+
+function createUser(name, city) {
+    return {
+        name: name,
+        city: city,
+    };
+}
+
+console.log(createUser('Marcus Aurelius', 'Roma'));
