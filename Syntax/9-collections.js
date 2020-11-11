@@ -1,6 +1,6 @@
 'use strict';
 
-let phoneBook = [
+const phoneBook = [
     {name: 'Marcus Aurelius', phone: '+380445554433'},
     {name: 'Timur Shemsedinov', phone: '+380998887766'},
     {name: 'James Bond', phone: '+380070071234'},
@@ -8,10 +8,6 @@ let phoneBook = [
     {name: 'Socrates', phone: '+380987654321'},
 ];
 
-function findPhoneByName(name) {
-    for (name in phoneBook) {
-        return `Phone of ${name}: + `;
-    }
-}
-
-console.log(findPhoneByName('James Bond'));
+const findPhoneByName = phoneBook.findIndex(function(name) {
+    console.log(name)
+})
