@@ -17,7 +17,7 @@ function fn() {
     return obj1;
 }
 
-console.log( fn() );
+console.log(fn());
 
 function createUser(name, city) {
     return {
@@ -27,3 +27,5 @@ function createUser(name, city) {
 }
 
 console.log(createUser('Marcus Aurelius', 'Roma'));
+console.log(createUser('Artem', 'Kyiv'));
+console.log(createUser('Bill Gates', 'Los Angeles'));

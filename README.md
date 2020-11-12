@@ -1,1 +1,1 @@
-This is my repository for practice works for my exam.
+This is my repository with practice works for my programming exam.
