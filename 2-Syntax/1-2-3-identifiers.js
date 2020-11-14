@@ -1,4 +1,4 @@
-'use strcit';
+'use strict';
 
 //let name = 'Artem';
 //const YEAR_BIRTH = 2003;
