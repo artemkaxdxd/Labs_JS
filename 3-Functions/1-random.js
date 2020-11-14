@@ -1,7 +1,7 @@
 'use strict';
 
-function random(max) {
-    return Math.floor(Math.random() * max);
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
 }
 
-console.log(random(1000));
+console.log(random(0, 1000));
