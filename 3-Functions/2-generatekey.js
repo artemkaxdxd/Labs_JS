@@ -15,5 +15,5 @@ function generateKey(length, characters) {
     return keyArr.join('');
 }
 
-const key = generateKey(15, characters);
+const key = generateKey(16, characters);
 console.log(key);
