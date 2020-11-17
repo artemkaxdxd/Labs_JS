@@ -9,8 +9,8 @@ function random(min, max) {
 function generateKey(length, characters) {
     let keyArr = [];
     for(let i = 0; i < length; i++) {
-        let xuy = random(0, characters.length);
-        keyArr.push(characters[xuy]);
+        let randomKey = random(0, characters.length);
+        keyArr.push(characters[randomKey]);
     }
     return keyArr.join('');
 }
