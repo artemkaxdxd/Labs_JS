@@ -10,10 +10,10 @@ let iface = {
     }
 }
 
+let arrOfArr = [];
 for (const key in iface) {
-    let arrOfArr = [];
     let arr = [];
     arr.push(key);
     arrOfArr.push(arr);
-    console.log(arrOfArr);
 }
+console.log(arrOfArr);
