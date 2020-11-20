@@ -1,6 +1,6 @@
 'use strict';
 
-let iface = {
+let obj = {
     m1: x => [x],
     m2: function (x, y) {
         return [x, y];
@@ -11,9 +11,12 @@ let iface = {
 }
 
 let arrOfArr = [];
-for (const key in iface) {
+
+for (const key in obj) {
     let arr = [];
-    arr.push(key);
+    arr.push(key, obj[key].length);
     arrOfArr.push(arr);
+    
 }
+
 console.log(arrOfArr);
