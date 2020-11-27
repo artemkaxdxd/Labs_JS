@@ -1,6 +1,6 @@
 'use strict';
 
-function max (matrix) {
+function max(matrix) {
     const max = (a, b) => (a > b ? a : b);
     const res = matrix.map(row => row.reduce(max))
     return console.log(Math.max(...res));
