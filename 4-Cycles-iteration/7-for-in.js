@@ -6,7 +6,7 @@ function ages(persons) {
         const value = persons[key];
         ages[key] = value.died - value.born
     }
-    return ages
+    return ages;
 }
 
 const persons = { 
