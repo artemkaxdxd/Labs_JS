@@ -19,9 +19,9 @@ function countTypes2(array) {
             obj[typeof value]++;
         } else {
             obj[typeof value] = 1;
-        }
+        };
     };
     console.table({ obj });
-}
+};
 
 countTypes2(array);
