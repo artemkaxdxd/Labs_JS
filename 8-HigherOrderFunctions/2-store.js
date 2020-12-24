@@ -4,7 +4,7 @@ function store1(x) {
     return function () {
         return x
     };
-}
+};
 
 const store2 = x => () => x;
 
