@@ -11,10 +11,10 @@ function removeElement(array, item) {
 const array = [1, 2, 3, 4, 5, 6, 7];
 removeElement(array, 5);
 console.log(array);
-// Результат: [1, 2, 3, 4, 6, 7]
+// Result: [1, 2, 3, 4, 6, 7]
 
 const array2 = ['Kiev', 'Beijing', 'Lima', 'Saratov'];
 removeElement(array2, 'Lima');
 removeElement(array2, 'Berlin');
 console.log(array2); 
-// Результат: ['Kiev', 'Beijing', 'Saratov']
+// Result: ['Kiev', 'Beijing', 'Saratov']

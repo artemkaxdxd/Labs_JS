@@ -14,12 +14,12 @@ const twice = x => x * 2;
 const cube = x => x ** 3;
 
 const funct1 = pipe(inc, twice, cube);
-const x1 = funct1(5); // 1728
+const x1 = funct1(5); // Result: 1728
 
 const funct2 = pipe(inc, inc);
-const x2 = funct2(7); // 9
+const x2 = funct2(7); // Result: 9
 
-const f = pipe(inc, 7, cube); // err
+const f = pipe(inc, 7, cube); // Result: err
 
 console.log(x1);
 console.log(x2);
