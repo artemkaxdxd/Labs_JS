@@ -8,4 +8,4 @@ const logger = new Logger();
 //Register listener
 logger.on('messageLogged', (arg) => console.log('Listener called!', arg));
 
-logger.log('Happy New Year!');
+logger.log('Merry Christmas!');
