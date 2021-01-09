@@ -1,6 +1,6 @@
 'use strict';
 
-const isPalidrome = str => {
+const isPalindrome = str => {
     let strLen = str.length;
     let result = '';
     for(let i = 0; i < strLen; i++){
@@ -13,8 +13,14 @@ const isPalidrome = str => {
     return result;
 };
 
-let test1 = isPalidrome('abcdedcba');
-let test2 = isPalidrome('abcded');
+const palindrome = str => str === str.split('').reverse().join('');
+
+let test1 = palindrome('abcdedcba');
+let test2 = palindrome('abcded');
+let test3 = palindrome('racecar');
+let test4 = palindrome('анна');
 
 console.log(`Result of test1: ${test1}`);
 console.log(`Result of test2: ${test2}`);
+console.log(`Result of test3: ${test3}`);
+console.log(`Result of test4: ${test4}`);
