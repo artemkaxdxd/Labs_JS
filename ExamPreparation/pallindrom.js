@@ -9,7 +9,6 @@ const isPalidrome = str => {
         } else {
             result = 'No';
         }
-        return result
     }
     return result;
 };
