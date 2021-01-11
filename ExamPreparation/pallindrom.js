@@ -13,12 +13,12 @@ const isPalindrome = str => {
     return result;
 };
 
-const palindrome = str => str === str.split('').reverse().join('');
+const palindrome = str => str.toLowerCase() === str.toLowerCase().split('').reverse().join('');
 
 let test1 = palindrome('abcdedcba');
 let test2 = palindrome('abcded');
 let test3 = palindrome('racecar');
-let test4 = palindrome('анна');
+let test4 = palindrome('Анна');
 
 console.log(`Result of test1: ${test1}`);
 console.log(`Result of test2: ${test2}`);
