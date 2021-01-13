@@ -16,12 +16,8 @@ const obj = {
 const validate = (def, obj) => {
     const keys = Object.keys(def);
     const fields = Object.keys(obj);
-    for(const field of fields) {
-        if (!keys.includes(field)) {
-            keys.push(field);
-        }
-    }
-    for (const key of keys) {
+    const keysSet = new Set([...keys, ...fields]);
+    for (const key of keysSet) {
         const curDef = def[key];
         if (curDef === undefined) return false;
         if (curDef !== typeof obj[key] && !curDef.includes('?')) return false;
@@ -30,5 +26,32 @@ const validate = (def, obj) => {
 };
 
 if (validate(def, obj)) {
+    console.log('Returned true');
+};
+
+const validate2 = (def, obj) => {
+    const keys = Object.keys(def);
+    const objKeys = Object.keys(obj);
+    for (const key of objKeys) {
+        if (!keys.includes(key)) return false;
+    }
+    for (const key of keys) {
+        let type = def[key];
+        let optional = false;
+        if (type.includes('?')) {
+            optional = true;
+            type = type.substring(0, type.length - 1);
+        }
+        const field = obj[key];
+        if (field) {
+            if(typeof field !== type) return false;
+        } else if (!optional) {
+            return false;
+        }
+    }
+    return true;
+};
+
+if (validate2(def, obj)) {
     console.log('Returned true');
 };
