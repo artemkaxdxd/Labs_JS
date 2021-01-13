@@ -5,13 +5,13 @@ const def = {
     field2: 'object',
     field3: 'number',
     field4: 'string?',
-}
+};
 
 const obj = {
     field1: 'abs',
     field2: { a:5 },
     field3: 10,
-}
+};
 
 const validate = (def, obj) => {
     const keys = Object.keys(def);
