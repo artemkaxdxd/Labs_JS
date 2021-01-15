@@ -1,4 +1,4 @@
-**This is my repository with practice works for my programming exam.**
+# SEF1
 
 | Task          | My solutions |
 | ------------- |:-----------:|
