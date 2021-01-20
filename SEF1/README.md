@@ -10,5 +10,5 @@
 | [Composition](https://github.com/HowProgrammingWorks/Composition/blob/master/Exercises.ru.md) | [Solution](https://github.com/artemkaxdxd/Labs_JS/tree/main/6-Composition) |
 | [Arrays](https://github.com/HowProgrammingWorks/Arrays/blob/master/Exercises.ru.md) | [Solution](https://github.com/artemkaxdxd/Labs_JS/tree/main/7-Arrays) |
 | [Higher Order Functions](https://github.com/HowProgrammingWorks/HigherOrderFunction/blob/master/Exercises.ru.md) | [Solution](https://github.com/artemkaxdxd/Labs_JS/tree/main/8-HigherOrderFunctions) |
-| Event Emitters | [Solution](https://github.com/artemkaxdxd/Labs_JS/tree/main/SEF1/EventEmitters) |
+| [Event Emitters](https://www.youtube.com/results?search_query=event+emitters+js) | [Solution](https://github.com/artemkaxdxd/Labs_JS/tree/main/SEF1/EventEmitters) |
 | [Exam Preparation](https://github.com/artemkaxdxd/Labs_JS/tree/main/ExamPreparation) | [Exam Solution](https://github.com/artemkaxdxd/Labs_JS/blob/main/ExamPreparation/EXAM.js) |
