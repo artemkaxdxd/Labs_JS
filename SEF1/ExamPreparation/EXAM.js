@@ -13,6 +13,7 @@ const obj = {
     field3: 10,
 };
 
+// This method of solving was approved by the God of Programming himself.
 const validate = (def, obj) => {
     const keys = Object.keys(def);
     const fields = Object.keys(obj);
@@ -29,6 +30,7 @@ if (validate(def, obj)) {
     console.log('Returned true');
 };
 
+// This method was proposed by one of 2nd course students
 const validate2 = (def, obj) => {
     const keys = Object.keys(def);
     const objKeys = Object.keys(obj);
